@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>检索大赛数据库导航</title>
+    <style>
+
+        /* 基础样式 */
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f2f5;
+        }
+
+        /* 标题样式 */
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        /* 链接分类区块 */
+        .category {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        /* 分类标题 */
+        h2 {
+            color: #1a73e8;
+            border-left: 4px solid #1a73e8;
+            padding-left: 10px;
+        }
+
+        /* 链接列表 */
+        .links {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 15px 0;
+        }
+
+        /* 单个链接样式 */
+        a {
+            display: flex;
+            align-items: center;
+            padding: 12px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            text-decoration: none;
+            color: #202124;
+            transition: all 0.2s;
+        }
+
+        a:hover {
+            background: #e8f0fe;
+            transform: translateY(-2px);
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        /* 图标样式 */
+        .favicon {
+            width: 20px;
+            height: 20px;
+            margin-right: 12px;
+        }
+
+       .centered-image-container {
+    	display: flex;
+   	 justify-content: center; /* 水平居中 */
+   	 align-items: center;     /* 垂直居中，如果需要的话 */
+   	 height: 30vh;           /* 如果希望图片在视口高度中居中，可以设置容器高度 */
+    	/* 如果不需要垂直居中，可以删除或调整height属性 */
+        }
+
+       .centered-image {
+   	width: 20%;              /* 将图片宽度设置为容器宽度的50%，可以根据需要调整 */
+    	height: auto;           /* 保持图片宽高比，自动调整高度 */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>📚 检索大赛数据库导航</h1>
+    </div>
+
+    <!-- 中文数据库 -->
+    <div class="category">
+        <h2>中文数据库</h2>
+        <div class="links">
+            <a href="https://www.cnki.net/" target="_blank">
+  	<img src="https://www.cnki.net/favicon.ico" class="favicon">
+	中国知网
+            </a>
+            <a href="https://www.zhizhen.com/" target="_blank">
+                <img src="https://www.zhizhen.com/favicon.ico" class="favicon">
+                超星发现
+            </a>
+            <a href="http://www.wanfangdata.com.cn" target="_blank">
+                <img src="https://www.wanfangdata.com.cn/favicon.ico" class="favicon">
+                万方数据知识服务平台
+            </a>
+            </a>
+            <a href="http://www.duxiu.com" target="_blank">
+                <img src="https://www.luibe.edu.cn/tsg1/images/content/2018-07/20180702140604719908.png" class="favicon">
+                读秀学术搜索
+            </a>
+            </a>
+            <a href="http://www.blyun.com" target="_blank">
+                <img src="https://img1.baidu.com/it/u=636519433,2740616520&fm=253&fmt=auto&app=120&f=JPEG?w=322&h=212" class="favicon">
+                百链云图书馆
+            </a>
+        </div>
+    </div>
+
+    <!-- 外文数据库 -->
+    <div class="category">
+        <h2>外文数据库</h2>
+        <div class="links">
+            <a href="https://search.ebscohost.com" target="_blank">
+  	<img src="https://search.ebscohost.com/webauth/images/ehost_logo.gif" class="favicon">
+  	EBSCO
+            </a>
+            <a href="https://www.webofscience.com/wos/" target="_blank">
+                <img src="https://www.webofscience.com/favicon.ico" class="favicon">
+                Web of Science
+            </a>
+            <a href="https://www.sciencedirect.com/" target="_blank">
+                <img src= "https://bkimg.cdn.bcebos.com/pic/902397dda144ad34c60677a2d9a20cf431ad855e" class="favicon">
+                ScienceDirect
+            </a>
+        </div>
+    </div>
+    
+     <div class="centered-image-container">
+        <img src="https://office.njucm.edu.cn/_upload/article/images/1d/d6/21f3b78d4486bdb96c8d5549cc92/4b4df387-20c9-44b6-8ec6-97ad5bf3399a.png"  class="centered-image">
+    </div>
+<body>
+
+
+</html>
